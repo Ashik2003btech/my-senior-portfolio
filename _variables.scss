@@ -1,0 +1,20 @@
+$bg-dark: #050505;
+$bg-card: #0f0f12;
+$accent-red: #e31b23;
+
+// High-Contrast Text Colors
+$text-white: #ffffff;      
+$text-gray: #d1d1d6;       
+$text-dim: #a1a1a6;      
+$border-color: rgba(255, 255, 255, 0.15);
+
+@mixin glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  border: 1px solid $border-color;
+  border-radius: 16px;
+}
+
+@mixin transition {
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
